@@ -1,0 +1,18 @@
+{
+    "name": "dx/coding-standard",
+    "description": "The DX Coding Standard is a set of PHPCS rules applied to all projects in DX Solutions.",
+    "type": "phpcodesniffer-standard",
+    "authors": [
+        {
+            "name": "Tom Van Herreweghe",
+            "email": "tom.van.herreweghe@dx-solutions.be"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "doctrine/coding-standard": "^4.0",
+        "object-calisthenics/phpcs-calisthenics-rules": "^3.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+        "squizlabs/php_codesniffer": "^3.3"
+    }
+}
