@@ -10,6 +10,7 @@
     <rule ref="Doctrine">
         <!-- Do not allign multiline assignments -->
         <exclude name="Generic.Formatting.MultipleStatementAlignment" />
+        <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType" />
     </rule>
     <rule ref="ObjectCalisthenics">
         <!-- Allow use of ELSE keyword -->
@@ -28,24 +29,32 @@
 
     <!-- Keep your classes/methods small -->
     <rule ref="ObjectCalisthenics.Files.ClassTraitAndInterfaceLength">
+        <type>warning</type>
         <properties>
             <property name="maxLength" value="200"/>
         </properties>
     </rule>
     <rule ref="ObjectCalisthenics.Files.FunctionLength">
+        <type>warning</type>
         <properties>
             <property name="maxLength" value="20"/>
         </properties>
     </rule>
     <rule ref="ObjectCalisthenics.Metrics.PropertyPerClassLimit">
+        <type>warning</type>
         <properties>
             <property name="maxCount" value="10"/>
         </properties>
     </rule>
     <rule ref="ObjectCalisthenics.Metrics.MethodPerClassLimit">
+        <type>warning</type>
         <properties>
             <property name="maxCount" value="10"/>
         </properties>
+    </rule>
+
+    <rule ref="SlevomatCodingStandard.Classes.UnusedPrivateElements.UnusedMethod">
+        <type>warning</type>
     </rule>
 
     <!-- End Customizations -->
