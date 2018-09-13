@@ -27,3 +27,9 @@ grumphp.yml:
 phpcs:
     standard: "DX"
 ```
+
+## Usage
+
+```
+$ php vendor/bin/phpcs --standard=DX <path to source files>
+```
