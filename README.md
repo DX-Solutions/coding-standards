@@ -30,6 +30,26 @@ phpcs:
 
 ## Usage
 
+### All errors & warnings
+
 ```
 $ php vendor/bin/phpcs --standard=DX <path to source files>
+```
+
+### Only errors
+
+```
+$ php vendor/bin/phpcs --standard=DX <path to source files> -n
+```
+
+### Show offending sniffs
+
+```
+$ php vendor/bin/phpcs --standard=DX <path to source files> -s
+```
+
+### Fix errors/warnings via CBF
+
+```
+$ php vendor/bin/phpcbf --standard=DX <path to source files>
 ```
