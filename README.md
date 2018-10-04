@@ -16,7 +16,7 @@
 ### Install with Composer
 
 ```
-$ composer require dx/coding-standard
+$ composer require --dev dx/coding-standard
 ```
 
 ### Update your configs
