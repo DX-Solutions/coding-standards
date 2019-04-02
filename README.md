@@ -8,7 +8,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@gitlab.com:dx-solutions/dx/internal/coding-standard.git"
+            "url": "git@github.com:DX-Solutions/coding-standards.git"
         }
     ],
 ```
