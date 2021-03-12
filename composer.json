@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": ">=7.1",
         "doctrine/coding-standard": "^8.0",
         "object-calisthenics/phpcs-calisthenics-rules": "^3.8",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
